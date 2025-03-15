@@ -12,6 +12,6 @@ public class Kangaroo extends Animal {
 	
 	@Override
 	public void eatFood(int amount) {
-		System.out.println("I reckon this here " + amount + "Herb" + (amount > 1 ? "s" : " '" ));
+		System.out.println("I reckon this here " + amount + "Herb" + (amount > 1 ? "s" : "" ));
 	}
 }
