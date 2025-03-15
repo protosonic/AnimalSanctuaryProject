@@ -1,5 +1,7 @@
 package com.skilldistillery.animals.app;
 
+import com.skilldistillery.animals.entities.Attendant;
+
 public class AnimalSanctuaryApp {
 
 	public static void main(String[] args) {
@@ -7,12 +9,12 @@ public class AnimalSanctuaryApp {
 		app.launchApp();
 	}
 	public void launchApp() {
-		// TODO: Instantiate a Sanctuary
-		// TODO: Instantiate an Attendant 
+		Sanctuary sanctuary = new Sanctuary(); // TODO: Instantiate a Sanctuary
+		Attendant attendent = new Attendant(); // TODO: Instantiate a Sanctuary				 
 		// TODO: Add attendant to sanctuary
 		
 		// TODO: Create and add animals to sanctuary
-		
+							
 		// TODO: Have sanctuary list animals, then attendant
 		// feeds by making rounds
 		
