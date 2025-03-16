@@ -1,8 +1,11 @@
 package com.skilldistillery.animals.entities;
 
 public class Penguin extends Animal {
-	private static String noise = "Chick! Chirp!"; {
-		System.out.println(noise);
+	private String noise = "\tChick! Chirp!\n"; {
+	}
+	
+	public Penguin(String name) {
+		setName(name);
 	}
 	
 	@Override
@@ -12,6 +15,6 @@ public class Penguin extends Animal {
 	
 	@Override
 	public void eatFood(int amount) {
-		System.out.println("Yummy! I can smell " + amount + "fish" + (amount > 1 ? "es" : "" ));
+		System.out.println("\tYummy! I can smell " + amount + " fish" + (amount > 1 ? "es" : " " ));
 	}
 }
