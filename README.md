@@ -17,4 +17,4 @@ Animal Sanctuary is an application that models an animal sanctuary.
 * How super classes are used
 * Practice iterating arrays
 * Practice debugging
-* Be even more careful using Git then you think you should!
+* Be even more careful using Git than you think you should!

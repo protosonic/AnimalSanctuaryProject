@@ -39,8 +39,7 @@ public class AnimalSanctuaryApp {
 				System.out.println("Great! Now which of species of animal is" + name + "?\n"
 						+ "1. Panda Bear\n"
 						+ "2. Penguin\n"
-						+ "3. Kangaroo\n"
-						+ "4. Dragon");
+						+ "3. Kangaroo\n");
 				String addChoice = sc.nextLine();
 				
 				
