@@ -13,11 +13,9 @@ public class Animal {
 	}
 
 	public void makeNoise() {
-		System.out.println(" ");
 	}
 	
 	public void eatFood (int amount) {
-		System.out.println("I'm eating: " + amount + " food" + (amount < 1 ? "s" : " "));
 	}
 	
 

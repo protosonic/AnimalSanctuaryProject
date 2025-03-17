@@ -36,7 +36,7 @@ public class AnimalSanctuaryApp {
 						+ "\nName: ");
 				sc.nextLine();
 				String name = sc.nextLine();
-				System.out.println("Great! Now which of species of animal is" + name + "?\n"
+				System.out.println("Great! Now which of these species of animal is" + name + "?\n"
 						+ "1. Panda Bear\n"
 						+ "2. Penguin\n"
 						+ "3. Kangaroo\n");
@@ -44,17 +44,17 @@ public class AnimalSanctuaryApp {
 				
 				
 					switch(addChoice.toLowerCase()) {
-					case "1", "panda": {
+					case "1", "panda", "panda bear": {
 						Panda newAnimal = new Panda(name);
 						sanctuary.addAnimal(newAnimal);
 						break;
 					}
-					case "2", "penguin": {
+					case "2", "penguin", "p": {
 						Penguin newAnimal = new Penguin(name);
 						sanctuary.addAnimal(newAnimal);
 						break;
 					}
-					case "3", "kangaroo": {
+					case "3", "kangaroo", "k": {
 						Kangaroo newAnimal = new Kangaroo(name);
 						sanctuary.addAnimal(newAnimal);
 						break;
@@ -74,7 +74,7 @@ public class AnimalSanctuaryApp {
 				continue;
 			}
 			}
-		} 
+		} sc.close();
 	}
 	public void printMenu() {
 		System.out.println("----------MENU----------");
